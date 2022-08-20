@@ -16,6 +16,7 @@ public class SimpleRESTService {
     @Path("/text")
     public String getHello () 
     {
+        log.info("call to getHello()");
         return "hello world!";
     } 
     @GET
