@@ -18,6 +18,7 @@ public class SimpleRESTEndpoint {
     @Inject
     @RestClient
     SimpleRESTServiceItf simpleRESTServiceItf;
+    
     @GET
     @Path("/text")
     public String getHello() {
